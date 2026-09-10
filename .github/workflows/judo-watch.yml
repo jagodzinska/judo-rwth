@@ -24,6 +24,10 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      # Runner laufen in UTC. Ohne das kaeme die Tagesmeldung erst um 11 Uhr
+      # deutscher Zeit und die Tagesgrenzen der Terminerinnerungen waeren verschoben.
+      TZ: Europe/Berlin
     steps:
       - uses: actions/checkout@v4
 
