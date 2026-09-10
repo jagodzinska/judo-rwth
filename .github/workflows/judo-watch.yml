@@ -1,0 +1,76 @@
+name: Judo-Watcher
+
+on:
+  schedule:
+    # stuendlich. Achtung: GitHub fuehrt geplante Jobs unter Last verzoegert aus
+    # (typisch 5-20 Minuten), das ist fuer diesen Zweck unkritisch.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      daily:
+        description: "Tagesmeldung erzwingen"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write        # Zustand zurueckschreiben
+  issues: write          # Aenderung als Issue melden
+
+concurrency:
+  group: judo-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Seiten pruefen
+        id: check
+        env:
+          JUDO_STATE_DIR: ${{ github.workspace }}/state
+          # optional, nur wenn als Repo-Secret hinterlegt:
+          JUDO_NTFY_TOPIC: ${{ secrets.JUDO_NTFY_TOPIC }}
+          JUDO_TELEGRAM_TOKEN: ${{ secrets.JUDO_TELEGRAM_TOKEN }}
+          JUDO_TELEGRAM_CHAT: ${{ secrets.JUDO_TELEGRAM_CHAT }}
+        run: |
+          ./judo_watch.py ${{ inputs.daily && '--daily' || '' }}
+
+      - name: Aenderung als Issue melden
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITEL: ${{ steps.check.outputs.title }}
+          NOTE: ${{ steps.check.outputs.note_file }}
+        run: |
+          {
+            cat "$NOTE"
+            echo
+            echo "---"
+            echo "[Zum Workflow-Lauf]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)"
+          } > /tmp/issue.md
+          gh issue create --title "$TITEL" --body-file /tmp/issue.md --label judo || \
+          gh issue create --title "$TITEL" --body-file /tmp/issue.md
+
+      - name: Zustand zurueckschreiben
+        run: |
+          git config user.name  "judo-watch[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state
+          if git diff --cached --quiet; then
+            echo "Zustand unveraendert, nichts zu committen."
+            exit 0
+          fi
+          git commit -m "Zustand: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # falls parallel schon etwas gepusht wurde
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"

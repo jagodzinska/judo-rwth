@@ -1,0 +1,21 @@
+[Beschreibung]
+Teilnehmende, die das Angebot Judo Level 1 mit der Angebotsnummer 31331115 oder 31332115 gebucht haben und einen Judoanzug ausleihen möchten, erfragen das Passwort beim Kursleiter in der ersten Kursstunde.
+Es steht nur eine begrenzte Anzahl von Anzügen zur Verfügung.
+Bitte zuerst die Kaution buchen und die Körpergröße angeben !
+Diese Buchung ist Voraussetzung für die Buchung der Leihgebühr.
+Nach Buchung der Leihgebühr erhalten Sie im Service Point einen Judoanzug ausgeliehen.
+Bitte vereinbaren Sie hierzu einen Termin zu den Öffnungszeiten im Service Point.
+Das Angebot Judo Level 1 mit Passwortschutz richtet sich an Fortgeschrittene-Anfänger.
+Das Passwort kann beim Kursleiter erfragt werden.
+Erster Zeitraum
+31331000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 13.10.2025-18.01.2026 | Joana Baumann , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
+31331001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 13.10.2025-18.01.2026 | Joana Baumann , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
+31331115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 13.10.2025-12.01.2026 | Joana Baumann , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
+31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 13.10.2025-12.01.2026 | Joana Baumann , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
+
+[Beschreibung]
+Zweiter Zeitraum
+31332000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 19.01.2026-12.04.2026 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | abgelaufen
+31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 19.01.2026-12.04.2026 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | abgelaufen
+31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.01.2026-30.03.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | abgelaufen
+31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 19.01.2026-30.03.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | abgelaufen

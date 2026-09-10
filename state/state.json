@@ -1,0 +1,26 @@
+{
+  "last_daily": "2026-09-10",
+  "pages": {
+    "bedienstetenkarte": {
+      "first_seen": "2026-09-10T21:44:12",
+      "hash": "5fd021eaa172ad5be7ba56ae5f72629fccbf47f88150c081ce34cc0e02c22315"
+    },
+    "judo_l1_ws": {
+      "first_seen": "2026-09-10T21:44:12",
+      "hash": "6890850f2183c9ad60cae9ef7c97d41601bd7a2e313d1a9ec17b608070113bdd"
+    },
+    "judo_uebersicht": {
+      "first_seen": "2026-09-10T21:44:12",
+      "hash": "5f02847353485545f0d2fe7342f0ae373ae0a7d686bca89964c314243733e5b4"
+    },
+    "programmstart": {
+      "first_seen": "2026-09-10T21:44:12",
+      "hash": "b4aa05d0d70edd06ea798f6fd18e940b6760a8f9f74f3b8ca0eba6b2f321ba5d"
+    },
+    "teilnahmeinfos": {
+      "first_seen": "2026-09-10T21:44:12",
+      "hash": "5efd1d048a2be307c8b8358df45c5517bbda0dd2209cb365405915c0d7f52050"
+    }
+  },
+  "reminders_fired": []
+}
