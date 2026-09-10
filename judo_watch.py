@@ -521,8 +521,10 @@ def check(force_daily=False, quiet=False):
             log(f"Erstaufnahme {key} ({len(text.splitlines())} Zeilen)")
             continue
 
-        entry["last_change"] = now.isoformat(timespec="seconds")
         diff = unified(old, text, name, context=1)
+        if not diff.strip():
+            continue          # Hash passte nicht, Inhalt aber schon - nichts zu melden
+        entry["last_change"] = now.isoformat(timespec="seconds")
         (SNAP_DIR / f"{key}.lastdiff.txt").write_text(
             f"{now:%Y-%m-%d %H:%M}  {tgt['url']}\n\n{diff}\n", encoding="utf-8")
         details.append(diff)
