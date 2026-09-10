@@ -78,3 +78,13 @@ jobs:
           # falls parallel schon etwas gepusht wurde
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
           git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      # Absichtlich als LETZTER Schritt: Issue und Zustand sind dann schon
+      # geschrieben. Der rote Lauf ist hier das Signal - GitHub schickt bei
+      # fehlgeschlagenen Workflows eine Mail, ganz ohne Repo-Abo. Die taegliche
+      # Statusmeldung wirkt dadurch als Lebenszeichen des Meldewegs.
+      - name: Meldeweg pruefen
+        if: steps.check.outputs.notify_failed == 'true'
+        run: |
+          echo "::error::Keine Benachrichtigung konnte zugestellt werden (ntfy erreichbar? Secret gesetzt?)."
+          exit 1

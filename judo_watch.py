@@ -140,7 +140,8 @@ CONFIG_FILE = Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) /
 # Issue und optional ntfy/Telegram gemeldet.
 IN_ACTIONS = bool(os.environ.get("GITHUB_ACTIONS"))
 
-SENT = []   # gesammelte Meldungen dieses Laufs: (titel, text, dringlichkeit)
+SENT = []       # gesammelte Meldungen dieses Laufs: (titel, text, dringlichkeit)
+UNZUSTELLBAR = []   # Meldungen, die ueber keinen einzigen Kanal rausgingen
 
 
 # ---------------------------------------------------------------- Hilfsfunktionen
@@ -389,6 +390,8 @@ def notify(title, body, urgency="normal"):
     ok = _desktop(title, body, urgency)
     ok = _ntfy(cfg, title, body, urgency) or ok
     ok = _telegram(cfg, title, body) or ok
+    if not ok:
+        UNZUSTELLBAR.append(title)
     print(f"\n=== {title} ===\n{body}\n")
     log(f"[{urgency}] {title} :: {body.splitlines()[0] if body else ''}")
     return ok
@@ -427,6 +430,7 @@ def emit_actions_output(details):
             fh.write(f"changed={'true' if wichtig else 'false'}\n")
             fh.write(f"title={titel}\n")
             fh.write(f"note_file={NOTE_FILE}\n")
+            fh.write(f"notify_failed={'true' if UNZUSTELLBAR else 'false'}\n")
 
 
 # ---------------------------------------------------------------- Termine

@@ -65,9 +65,20 @@ Repo: <https://github.com/jagodzinska/judo-rwth>
 * **Der Zustand liegt im Repo** unter `state/`. Der Workflow committet ihn zurück –
   damit ist die Git-History automatisch das Änderungsprotokoll der HSZ-Seiten:
   `git log -p state/snapshots/judo_l1_ws.txt` zeigt, was sich wann geändert hat.
-* **Benachrichtigung** ohne jede Einrichtung über ein **GitHub-Issue** – GitHub schickt
-  dir dazu eine E-Mail, weil du das Repo besitzt. Zusätzlich steht alles in der
-  Job-Zusammenfassung des Laufs. ntfy und Telegram gehen optional obendrauf, siehe unten.
+* **Benachrichtigung** geht per **ntfy** aufs Handy (Topic liegt im Repo-Secret
+  `JUDO_NTFY_TOPIC`). Zusätzlich legt jeder Fund ein **Issue** an und schreibt alles in
+  die Job-Zusammenfassung – das ist das durchsuchbare Archiv, absichtlich ohne
+  E-Mail-Abo, damit die täglichen Zustands-Commits nicht das Postfach fluten.
+
+### Wenn der Meldeweg selbst ausfällt
+
+ntfy ist der einzige aktive Kanal, ein stiller Ausfall wäre also fatal. Deshalb bricht
+der Workflow bewusst mit einem Fehler ab, wenn eine Meldung über **keinen** Kanal
+zugestellt werden konnte – als allerletzter Schritt, damit Issue und Zustand vorher
+noch geschrieben werden. Fehlgeschlagene Workflows meldet GitHub per E-Mail, und zwar
+unabhängig davon, ob man das Repo abonniert hat. Die tägliche Statusmeldung wirkt
+dadurch als Lebenszeichen: Bleibt ntfy stumm, wird der Lauf spätestens am nächsten Tag
+rot und die Mail kommt.
 
 ### Commit-Rauschen
 
