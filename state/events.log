@@ -14,3 +14,5 @@
 2026-09-15 09:39:44  [low] Judo-Watcher laeuft - nichts Neues :: Keine Aenderungen auf den beobachteten Seiten.
 2026-09-16 09:38:11  [low] Judo-Watcher laeuft - nichts Neues :: Keine Aenderungen auf den beobachteten Seiten.
 2026-09-17 08:05:56  FEHLER judo_l1_ws: HTTPError: 404 Client Error: Not Found for url: https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html (Fehlschlag 1)
+2026-09-17 13:37:35  FEHLER judo_l1_ws: HTTPError: 404 Client Error: Not Found for url: https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html (Fehlschlag 1)
+2026-09-17 13:37:38  [normal] Neues auf: Judo-Uebersichtsseite :: - Diplom-Sportlehrerin
