@@ -1,5 +1,5 @@
 [Beschreibung]
-Teilnehmende, die das Angebot Judo Level 1 mit der Angebotsnummer 31331115 oder 31332115 gebucht haben und einen Judoanzug ausleihen möchten, erfragen das Passwort beim Kursleiter in der ersten Kursstunde.
+Teilnehmende, die einen Judoanzug ausleihen möchten, erfragen das Passwort beim Kursleiter für das Angebot Judo Level 1 in der ersten Kursstunde.
 Es steht nur eine begrenzte Anzahl von Anzügen zur Verfügung.
 Bitte zuerst die Kaution buchen und die Körpergröße angeben !
 Diese Buchung ist Voraussetzung für die Buchung der Leihgebühr.
@@ -8,14 +8,16 @@ Bitte vereinbaren Sie hierzu einen Termin zu den Öffnungszeiten im Service Poin
 Das Angebot Judo Level 1 mit Passwortschutz richtet sich an Fortgeschrittene-Anfänger.
 Das Passwort kann beim Kursleiter erfragt werden.
 Erster Zeitraum
-31331000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 13.10.2025-18.01.2026 | Joana Baumann , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
-31331001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 13.10.2025-18.01.2026 | Joana Baumann , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
-31331115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 13.10.2025-12.01.2026 | Joana Baumann , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
-31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 13.10.2025-12.01.2026 | Joana Baumann , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
+31331000 | Judo Level 1 Judo Anzugausleihe Kaution |  | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
+31331001 | Judo Level 1 Judo Anzugausleihe Leihgebühr |  | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
+31331115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
+31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
+31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | N.N. , N.N. | 18/ 18/ 18 € | keine Buchung
 
 [Beschreibung]
 Zweiter Zeitraum
-31332000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 19.01.2026-12.04.2026 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | abgelaufen
-31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 19.01.2026-12.04.2026 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | abgelaufen
-31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.01.2026-30.03.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | abgelaufen
-31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 19.01.2026-30.03.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | abgelaufen
+31332000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
+31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
+31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | keine Buchung
+31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | keine Buchung
+31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | N.N. , N.N. | 19/ 19/ 19 € | keine Buchung
