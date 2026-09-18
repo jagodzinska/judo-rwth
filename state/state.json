@@ -1,5 +1,5 @@
 {
-  "last_daily": "2026-09-17",
+  "last_daily": "2026-09-18",
   "pages": {
     "bedienstetenkarte": {
       "first_seen": "2026-09-10T21:44:12",
@@ -7,8 +7,8 @@
     },
     "judo_l1_ws": {
       "first_seen": "2026-09-10T21:44:12",
-      "hash": "592044a677b16dbfd50df28f737b130ef357ce09448a6c4d9587f56135b9d473",
-      "last_change": "2026-09-17T18:53:55"
+      "hash": "82d119820235067c13d41364e7adc94b4854526cac7c467363c7f266c1782def",
+      "last_change": "2026-09-18T11:40:02"
     },
     "judo_uebersicht": {
       "first_seen": "2026-09-10T21:44:12",
