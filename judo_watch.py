@@ -98,7 +98,8 @@ REMINDERS = [
         "title": "ANMELDESTART Judo Level 1 - heute 16:00 Uhr",
         "text": ("Anmeldung erster Zeitraum WS 26/27: Dienstag 13.10.2026. Judo laeuft im "
                  "ersten Slot ab 16:00 Uhr (Spielsport 16:30, Fitness 17:00). "
-                 "Kurs ist montags 18:30-19:55."),
+                 "Level 1 ist sehr gefragt, also puenktlich sein. Kurs montags "
+                 "18:30-19:55, ab Oktober zusaetzlich donnerstags 18:30."),
         "lead_days": [7, 3, 1],
     },
     {
@@ -114,7 +115,7 @@ REMINDERS = [
 # und werden mit hoher Dringlichkeit gemeldet.
 IMPORTANT_RE = re.compile(
     r"anmeld|buchen|buchbar|freischalt|warteliste|ausgebucht|karte kaufen|"
-    r"termin|programmstart|zeitraum|bedienstet|sportkarte|"
+    r"termin|programmstart|zeitraum|bedienstet|beschäftigt|sportkarte|"
     r"20(2[6-9]|3\d)|wintersemester",
     re.I,
 )

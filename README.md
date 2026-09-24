@@ -173,11 +173,29 @@ zeigt aber noch die Kurse aus 25/26:
   gilt noch bis 11.10.2026 – die Winterkarte muss also erst noch erscheinen; genau
   darauf schaut der Wächter.
 * Judo Level 1 lag zuletzt bei **18 €**, montags **18:30–19:55**, zwei parallele Gruppen.
-  Eine der beiden Gruppen ist passwortgeschützt und richtet sich an fortgeschrittene
-  Anfänger – das Passwort gibt es beim Kursleiter.
+  Eine davon ist passwortgeschützt und richtet sich an fortgeschrittene Anfänger – für
+  Neueinsteiger bleibt montags also praktisch nur eine Gruppe.
 * Judogi kann für Level 1 ausgeliehen werden: erst **Kaution 50 €** buchen (mit
   Körpergröße), danach **Leihgebühr 5 €**, Abholung im Service Point.
 * Barfuß, kein Schmuck; für die ersten Einheiten reicht lange, reißfeste Kleidung.
+
+### Auskunft des HSZ per Mail (Manuel, 24.09.2026)
+
+* Level 1 ist sehr gefragt und entsprechend schnell voll. Deshalb gibt es **ab Oktober
+  eine zweite Level-1-Gruppe, donnerstags 18:30 Uhr**. Die taucht auf der Kursseite
+  auf, sobald die WS-Kurse eingestellt sind – der Wächter meldet das.
+* **Bedienstete haben bei der Buchung keinen Vorteil** – der Hochschulsport richtet
+  sich vor allem an Studierende. Man bucht also um 16:00 Uhr zeitgleich mit allen
+  Studierenden. Einziger Unterschied: Bedienstete brauchen die Beschäftigtenkarte
+  (= Bedienstetensportkarte), die schon vorher buchbar ist.
+* Externe brauchen eine Gästekarte und dürfen erst **zwei Stunden nach allen anderen**
+  buchen.
+* **Anmeldestart 13.10.2026, 16:00 Uhr** bestätigt. Auf der Kursseite wird das
+  irgendwann statt „keine Buchung" angezeigt.
+* **Normale Kurse haben kein Passwort.** Passwörter gibt es nur für spezielle
+  Zusatzangebote mit eigenen Zugangsvoraussetzungen (so wie die Gruppe für
+  fortgeschrittene Anfänger oder die Judogi-Ausleihe, deren Passwort es in der ersten
+  Stunde gibt). Für Level 1 als Anfänger ist kein Passwort nötig.
 
 Die Stichtage stecken als `REMINDERS` im Skript. Falls das HSZ die Termine verschiebt,
 meldet der Wächter die Änderung auf der Terminseite – die Liste dann dort anpassen.
