@@ -1,13 +1,13 @@
-2026-09-28 23:54  https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html
+2026-09-29 17:43  https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html
 
 --- Judo Level 1 (Wintersemester) (vorher)
 +++ Judo Level 1 (Wintersemester) (jetzt)
 @@ -14,3 +14,3 @@
  31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
--31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | N.N. , N.N. | 18/ 18/ 18 € | keine Buchung
-+31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | Joana Baumann , N.N. | 18/ 18/ 18 € | keine Buchung
+-31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | Joana Baumann , N.N. | 18/ 18/ 18 € | keine Buchung
++31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | Joana Baumann , Timothy Gregory Graef | 18/ 18/ 18 € | keine Buchung
  
 @@ -22,2 +22,2 @@
  31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | keine Buchung
--31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | N.N. , N.N. | 19/ 19/ 19 € | keine Buchung
-+31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , N.N. | 19/ 19/ 19 € | keine Buchung
+-31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , N.N. | 19/ 19/ 19 € | keine Buchung
++31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , Timothy Gregory Graef | 19/ 19/ 19 € | keine Buchung
