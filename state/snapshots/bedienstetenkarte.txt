@@ -1,4 +1,4 @@
-39100100 | Bedienstetensportkarte Bedienstetensportkarte |  | 13.04.2026-11.10.2026 |  | --/ 25/ -- € | Karte kaufen
+39100100 | Bedienstetensportkarte Bedienstetensportkarte |  | 13.04.2026-19.10.2026 |  | --/ 25/ -- € | Karte kaufen
 
 [Beschreibung]
 Erster Zeitraum
@@ -6,4 +6,4 @@ Erster Zeitraum
 
 [Beschreibung]
 Zweiter Zeitraum
-39100300 | Bedienstetensportkarte Bedienstetensportkarte zweiter Zeitraum |  | 13.07.2026-11.10.2026 |  | --/ 12,50/ -- € | Karte kaufen
+39100300 | Bedienstetensportkarte Bedienstetensportkarte zweiter Zeitraum |  | 13.07.2026-19.10.2026 |  | --/ 12,50/ -- € | Karte kaufen

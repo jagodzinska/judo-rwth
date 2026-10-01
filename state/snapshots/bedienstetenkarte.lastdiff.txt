@@ -1,0 +1,12 @@
+2026-10-01 15:04  https://buchung.hsz.rwth-aachen.de/angebote/aktueller_zeitraum/_Bedienstetensportkarte.html
+
+--- Bedienstetensportkarte (vorher)
++++ Bedienstetensportkarte (jetzt)
+@@ -1,2 +1,2 @@
+-39100100 | Bedienstetensportkarte Bedienstetensportkarte |  | 13.04.2026-11.10.2026 |  | --/ 25/ -- € | Karte kaufen
++39100100 | Bedienstetensportkarte Bedienstetensportkarte |  | 13.04.2026-19.10.2026 |  | --/ 25/ -- € | Karte kaufen
+ 
+@@ -8,2 +8,2 @@
+ Zweiter Zeitraum
+-39100300 | Bedienstetensportkarte Bedienstetensportkarte zweiter Zeitraum |  | 13.07.2026-11.10.2026 |  | --/ 12,50/ -- € | Karte kaufen
++39100300 | Bedienstetensportkarte Bedienstetensportkarte zweiter Zeitraum |  | 13.07.2026-19.10.2026 |  | --/ 12,50/ -- € | Karte kaufen
