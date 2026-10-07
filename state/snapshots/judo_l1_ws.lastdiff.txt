@@ -1,29 +1,11 @@
-2026-10-05 17:56  https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html
+2026-10-07 19:47  https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Judo_Level_1.html
 
 --- Judo Level 1 (Wintersemester) (vorher)
 +++ Judo Level 1 (Wintersemester) (jetzt)
-@@ -10,7 +10,7 @@
- Erster Zeitraum
--31331000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
--31331001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
--31331115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
--31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | keine Buchung
--31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | Joana Baumann , Timothy Gregory Graef | 18/ 18/ 18 € | keine Buchung
-+31331000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | ab 13.10., 16:00
-+31331001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 19.10.2026-22.12.2026 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | ab 13.10., 16:00
-+31331115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 2 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | ab 13.10., 16:00
-+31331116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Interim Budohalle 1 | 19.10.2026-21.12.2026 | Roman Rudi , Stephan Ritzert | 18/ 18/ 18 € | ab 13.10., 16:00
-+31331145 | Judo Level 1 Level 1 | Do 18:30-19:55 Interim Budohalle | 22.10.2026-17.12.2026 | Joana Baumann , Timothy Gregory Graef | 18/ 18/ 18 € | ab 13.10., 16:00
- 
-@@ -18,6 +18,6 @@
- Zweiter Zeitraum
--31332000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | keine Buchung
--31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | keine Buchung
--31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | keine Buchung
--31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | keine Buchung
--31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , Timothy Gregory Graef | 19/ 19/ 19 € | keine Buchung
-+31332000 | Judo Level 1 Judo Anzugausleihe Kaution | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 50/ 50/ 50 € | ab 12.01., 16:00
-+31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | ab 12.01., 16:00
-+31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
-+31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
-+31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , Timothy Gregory Graef | 19/ 19/ 19 € | ab 12.01., 16:00
+@@ -20,4 +20,4 @@
+ 31332001 | Judo Level 1 Judo Anzugausleihe Leihgebühr | HSZ Service Point | 18.01.2027-04.04.2027 | Roman Rudi , Stephan Ritzert | 5/ 5/ 5 € | ab 12.01., 16:00
+-31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
+-31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-29.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
++31332115 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-22.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
++31332116 | Judo Level 1 Level 1 | Mo 18:30-19:55 Königshügel Budohalle | 18.01.2027-22.03.2027 | Roman Rudi , Stephan Ritzert | 19/ 19/ 19 € | ab 12.01., 16:00
+ 31332145 | Judo Level 1 Level 1 | Do 18:30-19:55 Königshügel Budohalle | 21.01.2027-01.04.2027 | Joana Baumann , Timothy Gregory Graef | 19/ 19/ 19 € | ab 12.01., 16:00
