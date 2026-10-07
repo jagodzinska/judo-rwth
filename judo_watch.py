@@ -74,23 +74,8 @@ TARGETS = [
 # Termine fuer das Wintersemester 2026/2027 (Quelle: "Programmstart, Anmeldung und
 # Termine", Stand 10.09.2026). Erinnerung jeweils X Tage vorher und am Tag selbst.
 REMINDERS = [
-    {
-        "id": "bedienstetenkarte_fenster",
-        "date": "2026-10-05",
-        "title": "Bedienstetensportkarte WS 26/27",
-        "text": ("Ab jetzt sollte die Bedienstetensportkarte fuers Wintersemester vorab "
-                 "buchbar sein (eine Woche vor Semesterbeginn). Vorausbuchung geht nur bis "
-                 "zum Tag VOR dem Anmeldestart, also spaetestens Mo 12.10.2026."),
-        "lead_days": [7, 2],
-    },
-    {
-        "id": "bedienstetenkarte_deadline",
-        "date": "2026-10-12",
-        "title": "LETZTER TAG: Bedienstetensportkarte kaufen",
-        "text": ("Heute ist der letzte Tag, an dem die Bedienstetensportkarte vorab gebucht "
-                 "werden kann. Ohne diese Karte ist morgen keine Kursbuchung moeglich."),
-        "lead_days": [3, 1],
-    },
+    # Bedienstetenkarte fuer den ersten Zeitraum ist gekauft (07.10.2026), die
+    # Erinnerungen dazu sind entfallen.
     {
         "id": "anmeldestart",
         "date": "2026-10-13",
@@ -98,15 +83,46 @@ REMINDERS = [
         "title": "ANMELDESTART Judo Level 1 - heute 16:00 Uhr",
         "text": ("Anmeldung erster Zeitraum WS 26/27: Dienstag 13.10.2026. Judo laeuft im "
                  "ersten Slot ab 16:00 Uhr (Spielsport 16:30, Fitness 17:00). "
-                 "Level 1 ist sehr gefragt, also puenktlich sein. Kurs montags "
-                 "18:30-19:55, ab Oktober zusaetzlich donnerstags 18:30."),
-        "lead_days": [7, 3, 1],
+                 "Level 1 ist sehr gefragt, also puenktlich sein. Do 18:30 = 31331145, "
+                 "Mo 18:30 = 31331115 / 31331116. Mit E-Mail + Passwort anmelden, "
+                 "Status Beschaeftigte FH."),
+        "lead_days": [2, 1],
     },
     {
         "id": "programmstart",
         "date": "2026-10-19",
         "title": "Programmstart erster Zeitraum WS 26/27",
         "text": "Ab heute laufen die Kurse des ersten Zeitraums.",
+        "lead_days": [1],
+    },
+    # Zweiter Zeitraum: Kurse und Bedienstetenkarte werden pro Zeitraum gebucht,
+    # eine durchgehende WS-Karte gab es im Oktober nicht.
+    {
+        "id": "bedienstetenkarte2_deadline",
+        "date": "2027-01-11",
+        "title": "LETZTER TAG: Bedienstetensportkarte zweiter Zeitraum kaufen",
+        "text": ("Die Karte 'zweiter Zeitraum WS26/27' (12,50 EUR) muss bis heute gekauft "
+                 "sein - Vorausbuchung geht nur bis zum Tag vor dem Anmeldestart. "
+                 "Achtung: nicht die alte Karte mit abgelaufener Laufzeit erwischen, "
+                 "Laufzeit muss ab Januar 2027 gelten."),
+        "lead_days": [7, 3, 1],
+    },
+    {
+        "id": "anmeldestart2",
+        "date": "2027-01-12",
+        "time": "16:00",
+        "title": "ANMELDESTART Judo Level 1 zweiter Zeitraum - heute 16:00 Uhr",
+        "text": ("Anmeldung zweiter Zeitraum WS 26/27: Dienstag 12.01.2027, Judo im ersten "
+                 "Slot ab 16:00 Uhr. Level 1 Mo 18:30-19:55 (31332115/31332116) oder "
+                 "Do 18:30-19:55 (31332145), Koenigshuegel Budohalle, 19 EUR. "
+                 "Leihanzug: erst Kaution, dann Leihgebuehr buchen."),
+        "lead_days": [3, 1],
+    },
+    {
+        "id": "programmstart2",
+        "date": "2027-01-18",
+        "title": "Programmstart zweiter Zeitraum WS 26/27",
+        "text": "Ab heute laufen die Kurse des zweiten Zeitraums.",
         "lead_days": [1],
     },
 ]
@@ -121,6 +137,7 @@ IMPORTANT_RE = re.compile(
 )
 
 DAILY_HOUR = 9          # ab welcher Stunde die "alles ruhig"-Tagesmeldung kommt
+DAILY_NOTIFY = False    # Tagesmeldung abgeschaltet (seit 07.10.2026); --daily erzwingt sie weiterhin
 FAIL_ALERT_AFTER = 6    # nach so vielen Fehlschlaegen in Folge wird gewarnt
 TIMEOUT = 30
 USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) judo-watch/1.1 "
@@ -563,7 +580,7 @@ def check(force_daily=False, quiet=False):
     due = force_daily or (
         now.hour >= DAILY_HOUR and (last_daily is None or last_daily != now.date().isoformat())
     )
-    if due and not changes:
+    if due and not changes and (DAILY_NOTIFY or force_daily):
         cd = countdown_lines(now.date())
         body = "Keine Aenderungen auf den beobachteten Seiten.\n\n"
         body += "\n".join(cd) if cd else "  (keine anstehenden Termine hinterlegt)"

@@ -18,8 +18,9 @@ sich per Desktop-Benachrichtigung, sobald sich dort etwas ändert.
 * **sofort** (stündlich geprüft), sobald sich auf einer Seite inhaltlich etwas ändert.
   Änderungen mit Wörtern wie *Anmeldung, buchen, Zeitraum, Warteliste, 2026/2027* …
   kommen mit hoher Dringlichkeit (Benachrichtigung bleibt stehen).
-* **einmal täglich** ab 9 Uhr eine leise „läuft, nichts Neues"-Meldung samt Countdown –
-  damit sichtbar bleibt, dass der Wächter arbeitet.
+* **keine tägliche „nichts Neues“-Meldung mehr** (seit 07.10.2026, `DAILY_NOTIFY = False`).
+  Der Tageswechsel wird aber weiterhin still im Zustand vermerkt, damit der tägliche
+  Commit in Actions bleibt. `--daily` erzwingt die Meldung bei Bedarf.
 * **Terminerinnerungen** zu den hinterlegten Stichtagen (siehe `REMINDERS` im Skript),
   jeweils einige Tage vorher und am Tag selbst.
 * Wenn eine Seite sechsmal hintereinander nicht abrufbar oder nicht mehr lesbar ist
@@ -76,8 +77,8 @@ ntfy ist der einzige aktive Kanal, ein stiller Ausfall wäre also fatal. Deshalb
 der Workflow bewusst mit einem Fehler ab, wenn eine Meldung über **keinen** Kanal
 zugestellt werden konnte – als allerletzter Schritt, damit Issue und Zustand vorher
 noch geschrieben werden. Fehlgeschlagene Workflows meldet GitHub per E-Mail, und zwar
-unabhängig davon, ob man das Repo abonniert hat. Die tägliche Statusmeldung wirkt
-dadurch als Lebenszeichen: Bleibt ntfy stumm, wird der Lauf spätestens am nächsten Tag
+unabhängig davon, ob man das Repo abonniert hat. Solange die tägliche Statusmeldung
+aktiv war, wirkte sie dadurch als Lebenszeichen: Bleibt ntfy stumm, wird der Lauf spätestens am nächsten Tag
 rot und die Mail kommt.
 
 ### Commit-Rauschen
