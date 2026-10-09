@@ -1,13 +1,9 @@
-2026-10-07 19:47  https://hochschulsport.rwth-aachen.de/cms/hsz/sport/~itoe/Teilnahmeinformationen/
+2026-10-09 21:30  https://hochschulsport.rwth-aachen.de/cms/hsz/sport/~itoe/Teilnahmeinformationen/
 
 --- Teilnahmeinformationen (vorher)
 +++ Teilnahmeinformationen (jetzt)
-@@ -98,5 +98,5 @@
+@@ -98,3 +98,3 @@
  Downloads
--Teilnahmebedingungen (pdf: 1634kb)
--Unfallmeldung für Teilnehmende mit Studierendenstatus im organisierten Übungsbetrieb (pdf: 94kb)
-+Teilnahmebedingungen (pdf: 1.67 MB)
-+Unfallmeldung für Teilnehmende mit Studierendenstatus im organisierten Übungsbetrieb (pdf: 96 kB)
- Datenschutzerklärung für die Anmeldung am Hochschulsport
--Verhaltenskodex Hochschulsport (pdf: 142kb)
-+Verhaltenskodex Hochschulsport (pdf: 145 kB)
+-Teilnahmebedingungen (pdf: 1.67 MB)
++Teilnahmebedingungen (pdf: 1,67 MB)
+ Unfallmeldung für Teilnehmende mit Studierendenstatus im organisierten Übungsbetrieb (pdf: 96 kB)
